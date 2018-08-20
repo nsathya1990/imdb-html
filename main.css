@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('fonts/PTN77F-webfont.ttf'); 
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans Narrow', sans-serif
+}
+
+.menu {
+    margin-top: 0px;
+}
+
+nav {
+    padding: 13px;
+    background-color: #1d1d1d;
+    color: #e8e8e8;
+}
+
+nav div:first-child {
+    padding-left: 70px;
+    padding-right: 150px;
+    font-size: 30px;
+    border: 0px
+}
+
+nav div {
+    border-right: 1px solid #e8e8e8;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+    display: inline;
+}
+
+nav div:last-child {
+    border: 0px   
+}
