@@ -61,9 +61,92 @@ nav div:last-child {
     background-image: url(img/search-icon.png);
     background-size: cover;
     position: absolute;
-    width: 20px;
+    width: 25px;
     border-radius: 4px;
     border: none;
-    top: 26px;
-    right: 145px;
+    top: 24px;
+    right: 140px;
+}
+
+.main-content {
+    background-color: #262626;  
+    padding: 50px;
+}
+
+.movie-of-the-day span {
+    display: block;
+}
+
+.movie-of-the-day span:first-child {
+    color: #5293c2;
+    font-size: 15px;
+}
+
+.movie-of-the-day span:last-child {
+    color: #fdfdfd;
+    font-size: 25px;
+}
+
+.movie-description {
+    color: #7b7b7b;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.scroll-block {
+    padding-top: 20px;
+}
+
+.scroll-block div {
+    display: inline;
+}
+
+.left-img-block {
+    float: left;
+    color: #7b7b7b; 
+    padding: 3px;
+    padding-bottom: 0px;
+    background-color: #1c1c1c;
+}
+
+.right-img-block {
+    float: right;
+    color: #7b7b7b; 
+    padding: 3px;
+    padding-bottom: 0px;
+    background-color: #1c1c1c;
+}
+
+.right-img-block p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.left-img-block p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.right-scrollbar {
+    background-image: url(img/next-prev.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 55px;
+    width: 10px;
+    margin-top: 220px;
+    background-position: right;
+}
+
+.left-scrollbar {
+    background-image: url(img/next-prev.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 240px;
+    margin-left: 55px;
+    height: 15px;
+    width: 10px;
+    background-position: left;
 }
