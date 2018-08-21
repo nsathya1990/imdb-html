@@ -70,7 +70,7 @@ nav div:last-child {
 
 .main-content {
     background-color: #262626;  
-    padding: 50px;
+    padding: 20px;
 }
 
 .movie-of-the-day span {
@@ -149,4 +149,87 @@ nav div:last-child {
     height: 15px;
     width: 10px;
     background-position: left;
+}
+
+.rating {
+    background-image: url(img/star-icon.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 10px;
+    margin-left: 55px;
+    height: 15px;
+    width: 30px;
+    background-position: top;
+}
+
+.movies-of-the-month {
+    padding: 15px;
+    font-weight: 700;
+    color: #aaaaaa;
+}
+
+.movie-mth, .left-scroll, .right-scroll {
+    display: inline;
+}
+
+.movie-mth {
+    margin-left: 50px;
+}
+
+.left-scroll {
+    background-image: url(img/next-prev-2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 25px;
+    width: 10px;
+    background-position: left;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.right-scroll {
+    background-image: url(img/next-prev-2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 25px;
+    width: 10px;
+    background-position: right;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.see-all-blk {
+    padding: 15px;
+}
+
+.down-arrow {
+    background-image: url(img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 10px;
+    width: 10px;
+    background-position: right;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.down-arrow, .see-all {
+    display: inline;
+}
+.see-all {
+    float: right;
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+h6 {
+    color: #5293c2;   
+}
+
+p {
+    color: #aaaaaa;
+}
+
+.movie-month-block1 {
+    padding-left: 65px;
 }
