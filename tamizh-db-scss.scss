@@ -1,12 +1,68 @@
-/* SCSS */
-$blue: #3bbfce;
-$margin: 16px;
-
-.content-navigation {
-  border-color: $blue;
-  color: darken($blue, 9%);
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'PT Sans Narrow', sans-serif
 }
 
-.border {
-  padding: $margin / 29; margin: $margin / 2; border-color: $blue;
+.footer {
+  background-color: #1b1b1b;
+  padding: 35px;
+  color: #7b7b7b;
+  font-weight: bold;
+  div {
+    div {
+      text-align: center;
+      img {
+        padding: 20px 2px;
+      }
+    }
+    h6 {
+      color: #5293c2;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0px;
+      li {
+        border-bottom: 1px solid #7b7b7b;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding-bottom: 4px;
+        padding-top: 4px;
+      }
+    }
+  }
+  div:last-child {
+    div {
+      width: 50%;
+      margin: 0px;
+      text-align: center;
+      h6 {
+        margin-bottom: 4px;
+      }
+    }
+  }
+}
+
+.logo {
+  text-align: center;
+  color: #e8e8e8;
+  line-height: 0.4;
+  padding-bottom: 20px;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.footer-info {
+  padding: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  border-top: 1px solid #7b7b7b;
+  border-bottom: 1px solid #7b7b7b;
+  width: 150px;
 }

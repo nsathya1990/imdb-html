@@ -1,13 +1,66 @@
-/* SCSS */
-.content-navigation {
-  border-color: #3bbfce;
-  color: #2ca2af;
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
-.border {
-  padding: 0.5517241379px;
-  margin: 8px;
-  border-color: #3bbfce;
+.footer {
+  background-color: #1b1b1b;
+  padding: 35px;
+  color: #7b7b7b;
+  font-weight: bold;
+}
+.footer div div {
+  text-align: center;
+}
+.footer div div img {
+  padding: 20px 2px;
+}
+.footer div h6 {
+  color: #5293c2;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.footer div ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.footer div ul li {
+  border-bottom: 1px solid #7b7b7b;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+.footer div:last-child div {
+  width: 50%;
+  margin: 0px;
+  text-align: center;
+}
+.footer div:last-child div h6 {
+  margin-bottom: 4px;
+}
+
+.logo {
+  text-align: center;
+  color: #e8e8e8;
+  line-height: 0.4;
+  padding-bottom: 20px;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.footer-info {
+  padding: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  border-top: 1px solid #7b7b7b;
+  border-bottom: 1px solid #7b7b7b;
+  width: 150px;
 }
 
 /*# sourceMappingURL=tamizh-db-css.css.map */

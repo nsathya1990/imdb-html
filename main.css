@@ -3,12 +3,6 @@
     src: url('fonts/PTN77F-webfont.ttf'); 
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'PT Sans Narrow', sans-serif
-}
-
 .menu {
     margin-top: 0px;
 }
