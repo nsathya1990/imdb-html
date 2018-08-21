@@ -16,7 +16,7 @@ body {
 .footer div div img {
   padding: 20px 2px;
 }
-.footer div h6 {
+.footer div h5 {
   color: #5293c2;
   font-weight: bold;
   margin-bottom: 20px;
@@ -29,7 +29,7 @@ body {
 .footer div ul li {
   border-bottom: 1px solid #7b7b7b;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
   padding-bottom: 4px;
   padding-top: 4px;
 }
@@ -38,7 +38,7 @@ body {
   margin: 0px;
   text-align: center;
 }
-.footer div:last-child div h6 {
+.footer div:last-child div h5 {
   margin-bottom: 4px;
 }
 
@@ -58,6 +58,7 @@ body {
   margin: auto;
   text-align: center;
   font-size: 15px;
+  font-style: italic;
   border-top: 1px solid #7b7b7b;
   border-bottom: 1px solid #7b7b7b;
   width: 150px;
