@@ -233,3 +233,131 @@ p {
 .movie-month-block1 {
     padding-left: 65px;
 }
+
+.mov-left-blk {
+    background-color: #efefef;
+    padding: 55px;
+}
+
+.img-dreamworks {
+    background-image: url(img/content/dreamworks.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 20px;
+    height: 220px;
+    
+}
+
+.mov-left-blk div:first-child {
+    color: #aaaaaa;
+    font-size: 20px;   
+}
+
+.mov-left-blk div:nth-child(3) {
+    color: #5293c2;   
+    font-size: 25px;   
+}
+
+.mov-left-blk div:nth-child(4) {
+    padding-right: 60px;
+}
+
+.img-jurors {
+    background-image: url(img/content/jurors.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 20px;
+    height: 220px;
+}
+
+.mov-left-blk div:nth-child(6) {
+    color: #5293c2;   
+    font-size: 25px;   
+}
+
+.mov-left-blk div:nth-child(7) {
+    padding-right: 60px;
+}
+
+.img-kay {
+    background-image: url(img/content/kay.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 20px;
+    height: 220px;
+}
+
+.mov-left-blk div:nth-child(9) {
+    color: #5293c2;   
+    font-size: 25px;   
+    margin-right: 130px;
+}
+
+.mov-left-blk div:nth-child(10) {
+    padding-right: 60px;
+}
+
+.mov-right-blk {
+    background-color: #efefef;
+    padding: 55px;
+    padding-left: 0px;
+}
+
+.mov-right-blk div:first-child {
+    color: #aaaaaa;
+    font-size: 20px;   
+}
+
+.img-fantastic {
+    background-image: url(img/content/fantastic.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 20px;
+    height: 220px;   
+}
+
+.mov-right-blk div:nth-child(3) {
+    color: #5293c2;   
+    font-size: 25px;   
+}
+
+.mov-right-blk div:nth-child(4) {
+    padding-right: 60px;
+    margin-right: 40px;
+}
+
+.img-rome {
+    background-image: url(img/content/rome.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 20px;
+    height: 220px;   
+}
+
+.mov-right-blk div:nth-child(6) {
+    color: #5293c2;   
+    font-size: 25px;   
+}
+
+.mov-right-blk div:nth-child(7) {
+    padding-right: 60px;
+    margin-right: 40px;
+}
+
+.img-loopers {
+    background-image: url(img/content/loopers.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 20px;
+    height: 220px;   
+}
+
+.mov-right-blk div:nth-child(9) {
+    color: #5293c2;   
+    font-size: 25px;   
+}
+
+.mov-right-blk div:nth-child(10) {
+    padding-right: 60px;
+    margin-right: 40px;
+}
