@@ -3,65 +3,6 @@
     src: url('fonts/PTN77F-webfont.ttf'); 
 }
 
-.menu {
-    margin-top: 0px;
-}
-
-nav {
-    padding: 13px;
-    background-color: #1d1d1d;
-    color: #e8e8e8;
-    
-}
-
-nav div:first-child {
-    padding-left: 70px;
-    padding-right: 150px;
-    font-size: 30px;
-    border: 0px
-}
-
-nav div {
-    border-right: 1px solid #e8e8e8;
-    padding-right: 20px;
-    padding-left: 20px;
-        
-    font-size: 17px;
-    display: inline;
-}
-
-nav div:nth-child(6) {
-    border: none;
-   }
-
-nav div:last-child {
-    /* padding-left: 250px;*/
-    float: right;
-    height: 20px;
-    border: none;
-    padding-right: 125px;
-    padding-top: 10px;
-}
-
-.search-box {
-    padding: 5px;
-    border: 0px;
-    border-radius: 3px;
-    background-color: #dddddd;
-    position: relative;
-}
-
-.btn-search {
-    background-image: url(img/search-icon.png);
-    background-size: cover;
-    position: absolute;
-    width: 25px;
-    border-radius: 4px;
-    border: none;
-    top: 24px;
-    right: 140px;
-}
-
 .main-content {
     background-color: #262626;  
     padding: 20px;
@@ -122,38 +63,6 @@ nav div:last-child {
 .left-img-block p {
     margin-top: 0;
     margin-bottom: 0;
-}
-
-.right-scrollbar {
-    background-image: url(img/next-prev.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 55px;
-    width: 10px;
-    margin-top: 220px;
-    background-position: right;
-}
-
-.left-scrollbar {
-    background-image: url(img/next-prev.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-top: 240px;
-    margin-left: 55px;
-    height: 15px;
-    width: 10px;
-    background-position: left;
-}
-
-.rating {
-    background-image: url(img/star-icon.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-top: 10px;
-    margin-left: 55px;
-    height: 15px;
-    width: 30px;
-    background-position: top;
 }
 
 .movies-of-the-month {
@@ -242,20 +151,6 @@ p {
     
 }
 
-.mov-left-blk div:first-child {
-    color: #aaaaaa;
-    font-size: 20px;   
-}
-
-.mov-left-blk div:nth-child(3) {
-    color: #5293c2;   
-    font-size: 25px;   
-}
-
-.mov-left-blk div:nth-child(4) {
-    padding-right: 60px;
-}
-
 .img-jurors {
     background-image: url(img/content/jurors.png);
     background-repeat: no-repeat;
@@ -302,14 +197,6 @@ p {
     font-size: 20px;   
 }
 
-.img-fantastic {
-    background-image: url(img/content/fantastic.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-top: 20px;
-    height: 220px;   
-}
-
 .mov-right-blk div:nth-child(3) {
     color: #5293c2;   
     font-size: 25px;   
@@ -336,14 +223,6 @@ p {
 .mov-right-blk div:nth-child(7) {
     padding-right: 60px;
     margin-right: 40px;
-}
-
-.img-loopers {
-    background-image: url(img/content/loopers.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-top: 20px;
-    height: 220px;   
 }
 
 .mov-right-blk div:nth-child(9) {

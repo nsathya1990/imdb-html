@@ -1,0 +1,121 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.header-section {
+  background-image: url(img/header-bg.png);
+  background-size: cover;
+  background-color: red;
+}
+
+.mov-of-the-month-blk {
+  padding: 20px;
+}
+.mov-of-the-month-blk .gallery {
+  position: relative;
+}
+.mov-of-the-month-blk .gallery .like-views {
+  position: absolute;
+  bottom: 0px;
+}
+
+.mov-left-blk .desc .like-views {
+  color: #7b7b7b;
+  font-size: 13px;
+}
+
+.mov-right-blk .img-fantastic {
+  background-image: url(img/content/fantastic.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-top: 20px;
+  height: 220px;
+  position: relative;
+}
+.mov-right-blk .img-fantastic .play-video {
+  position: absolute;
+  right: 230px;
+  bottom: 40px;
+}
+.mov-right-blk .img-loopers {
+  background-image: url(img/content/loopers.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-top: 20px;
+  height: 220px;
+  position: relative;
+}
+.mov-right-blk .img-loopers .play-video {
+  position: absolute;
+  right: 230px;
+  bottom: 40px;
+}
+
+.like-views {
+  color: #7b7b7b;
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #1b1b1b;
+  padding: 35px;
+  color: #7b7b7b;
+  font-weight: bold;
+}
+.footer div div {
+  text-align: center;
+}
+.footer div div img {
+  padding: 20px 2px;
+}
+.footer div h5 {
+  color: #5293c2;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.footer div ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.footer div ul li {
+  border-bottom: 1px solid #7b7b7b;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+.footer div:last-child div {
+  width: 50%;
+  margin: 0px;
+  text-align: center;
+}
+.footer div:last-child div h5 {
+  margin-bottom: 4px;
+}
+
+.logo {
+  text-align: center;
+  color: #e8e8e8;
+  line-height: 0.4;
+  padding-bottom: 20px;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.footer-info {
+  padding: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  border-top: 1px solid #7b7b7b;
+  border-bottom: 1px solid #7b7b7b;
+  width: 150px;
+}
+
+/*# sourceMappingURL=tamizh-cdb-css.css.map */
