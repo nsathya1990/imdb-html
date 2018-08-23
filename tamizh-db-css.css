@@ -119,14 +119,62 @@ body {
 }
 
 .mov-of-the-month-blk {
-  padding: 20px;
+  padding-left: 12%;
+  padding-right: 16%;
+  padding-bottom: 2%;
 }
-.mov-of-the-month-blk .gallery {
-  position: relative;
+.mov-of-the-month-blk .movie-month-block {
+  display: flex;
+  padding-left: 0%;
 }
-.mov-of-the-month-blk .gallery .like-views {
-  position: absolute;
-  bottom: 0px;
+.mov-of-the-month-blk .movie-month-block .snapshot {
+  width: 25%;
+  padding-right: 7%;
+}
+.mov-of-the-month-blk .movie-month-block .snapshot h6 {
+  padding-top: 10%;
+  text-decoration: underline;
+}
+.mov-of-the-month-blk .movie-month-block .snapshot:nth-child(2) {
+  padding-left: 1%;
+  padding-right: 5%;
+}
+.mov-of-the-month-blk .movie-month-block .snapshot:nth-child(3) {
+  padding-left: 2%;
+  padding-right: 5%;
+}
+.mov-of-the-month-blk .movie-month-block .snapshot:last-child {
+  padding-left: 4%;
+}
+
+.movies-of-the-month {
+  display: flex;
+  padding-left: 12%;
+  padding-top: 3%;
+  margin-bottom: 1%;
+  font-weight: 700;
+  color: #aaaaaa;
+}
+
+.see-all-blk {
+  padding-top: 3%;
+  padding-left: 18%;
+  margin-bottom: 1%;
+}
+.see-all-blk .down-arrow {
+  background-image: url(img/arrow.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+  padding: 5%;
+  margin-left: 10%;
+}
+.see-all-blk .see-all {
+  margin-left: 10%;
+  text-decoration: underline;
+}
+.see-all-blk .down-arrow, .see-all-blk .see-all {
+  display: inline;
 }
 
 .mov-left-blk {
@@ -186,47 +234,60 @@ body {
 
 .mov-right-blk {
   background-color: #efefef;
-  padding: 3% 8% 20% 2%;
+  padding: 3% 8% 48% 2%;
+}
+.mov-right-blk .img-enthiran {
+  background-image: url(img/tamil-content/Enthiran2.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  height: 20%;
+  width: 80%;
+  padding-right: 4%;
+}
+.mov-right-blk .img-enthiran .play-video {
+  position: absolute;
+  right: 230px;
+  bottom: 40px;
+}
+.mov-right-blk .img-trisha {
+  background-image: url(img/tamil-content/Trisha.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 20%;
+  width: 80%;
+  padding-right: 4%;
+}
+.mov-right-blk .img-mersal {
+  background-image: url(img/tamil-content/Mersal.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 20%;
+  width: 80%;
+  padding-right: 4%;
+  position: relative;
+}
+.mov-right-blk .img-mersal .play-video {
+  position: absolute;
+  right: 230px;
+  bottom: 40px;
+}
+.mov-right-blk .desc p {
+  padding-right: 4%;
+  margin-bottom: 2%;
+}
+.mov-right-blk .desc .like-views {
+  color: #7b7b7b;
+  font-size: 13px;
+  padding-bottom: 10%;
 }
 .mov-right-blk div:nth-child(3) {
   color: #5293c2;
   font-size: 25px;
 }
-.mov-right-blk .img-fantastic {
-  background-image: url(img/tamil-content/Enthiran2.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-  height: 15%;
-  position: relative;
-}
-.mov-right-blk .img-fantastic .play-video {
-  position: absolute;
-  right: 230px;
-  bottom: 40px;
-}
-.mov-right-blk .img-rome {
-  background-image: url(img/tamil-content/Trisha.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-  margin-top: 20px;
-  height: 220px;
-}
 .mov-right-blk div:nth-child(4) {
   padding-right: 60px;
   margin-right: 40px;
-}
-.mov-right-blk .img-loopers {
-  background-image: url(img/tamil-content/Mersal.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-  margin-top: 20px;
-  height: 220px;
-  position: relative;
-}
-.mov-right-blk .img-loopers .play-video {
-  position: absolute;
-  right: 230px;
-  bottom: 40px;
 }
 .mov-right-blk div:nth-child(6) {
   color: #5293c2;
@@ -250,6 +311,10 @@ body {
 }
 .mov-right-blk h4 {
   padding: 2% 4% 1% 0%;
+}
+.mov-right-blk .h4-rhs {
+  width: 80%;
+  padding: 0% 4% 0% 0%;
 }
 
 .like-views {
