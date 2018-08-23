@@ -67,13 +67,12 @@
 
 .movies-of-the-month {
     padding: 15px;
+    padding-left: 35px;
     font-weight: 700;
     color: #aaaaaa;
 }
 
-.movie-mth, .left-scroll, .right-scroll {
-    display: inline;
-}
+
 
 .movie-mth {
     margin-left: 50px;
@@ -135,102 +134,4 @@ p {
 
 .movie-month-block1 {
     padding-left: 65px;
-}
-
-.mov-left-blk {
-    background-color: #efefef;
-    padding: 55px;
-}
-
-.img-dreamworks {
-    background-image: url(img/content/dreamworks.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-top: 20px;
-    height: 220px;
-    
-}
-
-.img-jurors {
-    background-image: url(img/content/jurors.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-top: 20px;
-    height: 220px;
-}
-
-.mov-left-blk div:nth-child(6) {
-    color: #5293c2;   
-    font-size: 25px;   
-}
-
-.mov-left-blk div:nth-child(7) {
-    padding-right: 60px;
-}
-
-.img-kay {
-    background-image: url(img/content/kay.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-top: 20px;
-    height: 220px;
-}
-
-.mov-left-blk div:nth-child(9) {
-    color: #5293c2;   
-    font-size: 25px;   
-    margin-right: 130px;
-}
-
-.mov-left-blk div:nth-child(10) {
-    padding-right: 60px;
-}
-
-.mov-right-blk {
-    background-color: #efefef;
-    padding: 55px;
-    padding-left: 0px;
-}
-
-.mov-right-blk div:first-child {
-    color: #aaaaaa;
-    font-size: 20px;   
-}
-
-.mov-right-blk div:nth-child(3) {
-    color: #5293c2;   
-    font-size: 25px;   
-}
-
-.mov-right-blk div:nth-child(4) {
-    padding-right: 60px;
-    margin-right: 40px;
-}
-
-.img-rome {
-    background-image: url(img/content/rome.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-top: 20px;
-    height: 220px;   
-}
-
-.mov-right-blk div:nth-child(6) {
-    color: #5293c2;   
-    font-size: 25px;   
-}
-
-.mov-right-blk div:nth-child(7) {
-    padding-right: 60px;
-    margin-right: 40px;
-}
-
-.mov-right-blk div:nth-child(9) {
-    color: #5293c2;   
-    font-size: 25px;   
-}
-
-.mov-right-blk div:nth-child(10) {
-    padding-right: 60px;
-    margin-right: 40px;
 }

@@ -58,7 +58,7 @@ body {
   width: 25%;
   display: flex;
   margin-top: 6px;
-  margin-left: 363px;
+  margin-left: 350px;
 }
 .header-section .row div:first-child .rating-blk .rating {
   background-image: url(img/star-icon.png);
@@ -89,7 +89,7 @@ body {
 .header-section .row .img-desc-block .trailer-scroll {
   display: flex;
   position: absolute;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .header-section .row .img-desc-block .trailer-scroll .left-scrollbar {
   background-image: url(img/next-prev.png);
@@ -129,17 +129,74 @@ body {
   bottom: 0px;
 }
 
+.mov-left-blk {
+  padding: 3% 8% 48% 12%;
+  background-color: #efefef;
+}
+.mov-left-blk .img-aramm {
+  background-image: url(img/tamil-content/Aramm.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 20%;
+}
+.mov-left-blk .img-kokila {
+  background-image: url(img/tamil-content/KolamavuKokila.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 20%;
+}
+.mov-left-blk .img-lakshmi {
+  background-image: url(img/tamil-content/Lakshmi.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 20%;
+}
+.mov-left-blk div:nth-child(3) {
+  color: #5293c2;
+  font-size: 25px;
+}
+.mov-left-blk .desc p {
+  padding-right: 4%;
+  margin-bottom: 2%;
+}
 .mov-left-blk .desc .like-views {
   color: #7b7b7b;
   font-size: 13px;
+  padding-bottom: 10%;
+}
+.mov-left-blk div:nth-child(6) {
+  color: #5293c2;
+  font-size: 25px;
+}
+.mov-left-blk div:nth-child(10) {
+  color: #5293c2;
+  font-size: 25px;
+  margin-right: 130px;
+}
+.mov-left-blk .mov-left-blk div:nth-child(11) {
+  padding-right: 60px;
+}
+.mov-left-blk h5 {
+  color: #aaaaaa;
+  padding: 0% 0% 3%;
+}
+.mov-left-blk h4 {
+  padding: 0% 4% 0% 0%;
 }
 
+.mov-right-blk {
+  background-color: #efefef;
+  padding: 3% 8% 20% 2%;
+}
+.mov-right-blk div:nth-child(3) {
+  color: #5293c2;
+  font-size: 25px;
+}
 .mov-right-blk .img-fantastic {
-  background-image: url(img/content/fantastic.png);
+  background-image: url(img/tamil-content/Enthiran2.jpg);
   background-repeat: no-repeat;
   background-size: auto;
-  margin-top: 20px;
-  height: 220px;
+  height: 15%;
   position: relative;
 }
 .mov-right-blk .img-fantastic .play-video {
@@ -147,8 +204,19 @@ body {
   right: 230px;
   bottom: 40px;
 }
+.mov-right-blk .img-rome {
+  background-image: url(img/tamil-content/Trisha.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-top: 20px;
+  height: 220px;
+}
+.mov-right-blk div:nth-child(4) {
+  padding-right: 60px;
+  margin-right: 40px;
+}
 .mov-right-blk .img-loopers {
-  background-image: url(img/content/loopers.png);
+  background-image: url(img/tamil-content/Mersal.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   margin-top: 20px;
@@ -160,10 +228,34 @@ body {
   right: 230px;
   bottom: 40px;
 }
+.mov-right-blk div:nth-child(6) {
+  color: #5293c2;
+  font-size: 25px;
+}
+.mov-right-blk div:nth-child(7) {
+  padding-right: 60px;
+  margin-right: 40px;
+}
+.mov-right-blk div:nth-child(9) {
+  color: #5293c2;
+  font-size: 25px;
+}
+.mov-right-blk div:nth-child(10) {
+  padding-right: 60px;
+  margin-right: 40px;
+}
+.mov-right-blk h5 {
+  color: #aaaaaa;
+  padding: 0% 0% 3%;
+}
+.mov-right-blk h4 {
+  padding: 2% 4% 1% 0%;
+}
 
 .like-views {
   color: #7b7b7b;
   font-size: 13px;
+  padding-bottom: 5%;
 }
 
 .footer {
