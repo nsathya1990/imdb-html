@@ -30,32 +30,6 @@
     display: inline;
 }
 
-.left-img-block {
-    float: left;
-    color: #7b7b7b; 
-    padding: 3px;
-    padding-bottom: 0px;
-    background-color: #1c1c1c;
-}
-
-.right-img-block {
-    float: right;
-    color: #7b7b7b; 
-    padding: 3px;
-    padding-bottom: 0px;
-    background-color: #1c1c1c;
-}
-
-.right-img-block p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.left-img-block p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .left-scroll {
     background-image: url(img/next-prev-2.png);
     background-repeat: no-repeat;
